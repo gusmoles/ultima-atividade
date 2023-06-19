@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #C6E2FF, #6CA6CD);
+}
+.cartao{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px 5px 0px;
+    filter: drop-shadow(15px 10px 10px);
+}
+.gira{
+   margin-left: 33%;
+   margin-top: -70px;
+   filter: drop-shadow(15px 10px 10px);
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.texto1{
+    text-align: center;
+}
+.banvacina{
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 10px 10px  black);
+    margin-top: -30px;
+    margin-bottom: 40px;
+    margin-right: 370px
+}
+.banalimento{
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 10px 10px  black);  
+    margin-right: 450px;
+}
+
+.img-fluid{
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 10px 10px  black);
+    margin-left: 25%;
+}
+
+footer{
+    position: absolute;
+
+}
+header{
+    margin-bottom: 5%;
+}
+.texto2{
+    background-color:#97bce4;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: serif;
+}
+.nome input[type=text]{
+    height: 70px;
+    border-radius: 50px;
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+}
+label{
+    font-size: 30px;
+    color: #FFF;
+    padding-left: 40px;
+    text-align: left;
+    margin-top: 17px;
+}
+.sobrenome input[type=text]{
+    height: 70px;
+    border-radius: 50px;
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+}
+.senha input[type=text]{
+    height: 70px;
+    border-radius: 50px;
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+}
+.email input[type=text]{
+    height: 70px;
+    border-radius: 50px;
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+}
+form div{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    width: 50%;
+}
+input[type=submit]{
+    height: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    border: none;
+    width: 8%;
+    margin-left: 435px;
+    font-size: larger;
+    color: #FFF;}
+
+.algo{
+    margin-left: 25%;
+}
